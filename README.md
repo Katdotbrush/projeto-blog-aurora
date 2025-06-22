@@ -3,7 +3,7 @@
 Sobre este projeto...
 Bem, espero que este projeto realmente tenha futuro...
 Mas vamos deixar esta crise existencial de vaporware para um outro momento.
-Bem, este é um projeto sobre um blog pessoal meu. Completamente em português (com talvez uma versão futural em inglês ou até...francês). Aonde eu irei postar coisas como poesias, posts de blog.
+Bem, este é um projeto sobre um blog pessoal meu. Completamente em português (com talvez uma versão futura em inglês ou até...francês). Aonde eu irei postar coisas como poesias, posts de blog.
 E eu acho que é a hora de eu explicar a quem estiver lendo o que cada link ali encima é— (mesmo que é meio óbvio o que a maioria faz...)
 
 A PÁGINA PRINCIPAL é o lugar aonde você está! Mas, caso você não saiba, é aqui onde todos os links estão. Além do copyright e o Sobre-o-projeto— Essas coisas!
