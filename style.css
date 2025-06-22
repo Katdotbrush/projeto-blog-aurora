@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #24033f;
+    /* background: linear-gradient(180rad,#24033f, #532e6e, #24033f); */
+}
+
+.link {
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* Estilização do Header */
+
+header {
+    /* border: solid; */
+
+    width: 50%;
+    height: 20vh;
+
+    background-color: #361e48;
+}
+
+#header-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* border: solid; */
+    font-family: 'GrapeSoda';
+    height: 65%;
+}
+
+#header-title h1 {
+    font-size: 60px;
+}
+
+#header-links {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(4, 1fr);
+
+    /* border: solid; */
+
+    height: 35%;
+}
+
+.header-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.header-button:hover {
+    transition: 0.2s;
+    background-color: #532e6e;
+}
+
+/* Estilização do Main */
+
+main {
+    /* border: solid; */
+    display: grid;
+    grid-template-areas: 
+        "title p p" 
+        "p2 p p";
+
+    width: 50%;
+    height: 65vh;
+}
+
+#title {
+    /* border: solid; */
+    grid-area: title;
+
+    font-family: 'GrapeSoda';
+    font-size: 70px;
+    padding: 7.5px;
+}
+
+#first-p {
+    grid-area: p;
+}
+
+#second-p {
+    grid-area: p2;
+}
+
+main p {
+    /* border: solid; */
+    font-size: 20px;
+    color: #cfcdcd;
+    text-wrap: balance;
+
+    padding: 7.5px;
+}
+
+
+/* Estilização do Footer */
+
+
+footer {
+    background-color: #361e48;
+    /* border: solid; */
+
+    width: 50%;
+    height: 10vh;
+
+    /* margin-top: 10px; */
+    padding-bottom: 2%;
+}
+
+/*
+#about-footer, #copy-right {
+    border: solid;
+}
+*/
+
+#about-footer {
+    padding-left: 10px;
+    padding-top: 20px;
+
+    color: rgb(163, 124, 24);
+    font-style: italic;
+}
+
+#copy-right {
+    position: relative;
+    top: 15px;
+
+    text-align: right;
+    padding-right: 4.5px;
+
+    color: #621281;
+}
