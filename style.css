@@ -153,3 +153,18 @@ footer {
 
     color: #621281;
 }
+
+/* SOBRE O AUTOR */
+
+#avatar-pfp {
+    float: right;
+
+    margin-top: 5px;
+    border-radius: 2px;
+
+    transition: rotate 1s cubic-bezier(0.3, 0.8, 0.3, 2.3); /* Testando as transições kkkk */
+}
+
+#avatar-pfp:hover {
+    rotate: 2.5deg;
+}
