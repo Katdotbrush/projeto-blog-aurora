@@ -21,8 +21,17 @@ body {
     text-decoration: none;
 }
 
-.link:hover {
+.link:hover, .link-story:hover {
     text-decoration: underline;
+}
+
+.link-story {
+    font-size: 18px;
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+
+    margin-top: 25px;
 }
 
 /* Estilização do Header */
@@ -167,4 +176,142 @@ footer {
 
 #avatar-pfp:hover {
     rotate: 2.5deg;
+}
+
+/* SOBRE O BLOG */
+
+#story-links {
+    /* border: solid; */
+    
+    margin-top: 20px;
+}
+
+.story-sect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* border: solid; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #532e6e;
+
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.story-sect h2 {
+    font-family: 'GrapeSoda';
+    font-size: 25px;
+}
+
+.number-story {
+    position: absolute;
+    right: 43.8vw;
+
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    /* background-color: #741699; */
+    padding-inline: 5px;
+}
+
+/* SUBCATEGORIA: CORES E SUAS ETIQUETAS */
+
+#cores {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+
+    height: 30vh;
+    margin-top: 10px;
+
+    /* border: solid; */
+}
+
+.span-cor {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    padding-left: 10px;
+
+    font-size: 20px;
+
+    border: solid;
+}
+
+#amarelo {
+    color: yellow;
+
+    border: none;
+}
+
+#amarelo::before {
+    content: '💛';
+    margin-right: 5px;
+}
+
+/* vermelho */
+#vermelho {
+    color: red;
+
+    border: none;
+}
+
+#vermelho::before {
+    content: '❤️';
+    margin-right: 5px;
+}
+
+#azul {
+    color: blue;
+
+    border: none;
+}
+
+#azul::before {
+    content: '💙';
+    margin-right: 5px;
+}
+
+#preto {
+    color: black;
+
+    border: none;
+}
+
+#preto::before {
+    content: '🖤';
+    margin-right: 5px;
+}
+
+/* SUBCATEGORIA: CORES PARAGRÁFOS */
+
+.cor-p {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    font-size: 15px;
+    /* color: black; */
+
+    /* border: solid; */
+}
+
+#p-amarelo {
+    color: yellow;
+}
+
+#p-vermelho {
+    color: red;
+}
+
+#p-azul {
+    color: blue;
+}
+
+#p-preto {
+    color: black;
+
+    font-family: Wingdings;
 }
