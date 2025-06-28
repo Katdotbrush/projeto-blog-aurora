@@ -9,7 +9,7 @@ body {
     justify-content: center;
     flex-direction: column;
 
-    font-family: 'Tiny5';
+    font-family: 'Minecraft Standard';
     color: white;
     background-color: #24033f;
     /* background: linear-gradient(180rad,#24033f, #532e6e, #24033f); */
@@ -28,10 +28,13 @@ body {
 .link-story {
     font-size: 18px;
     color: white;
+     background-color: #7b44a1;
     font-style: italic;
     text-decoration: none;
 
     margin-top: 25px;
+    padding-inline: 10px;
+    padding-bottom: 5px;
 }
 
 /* Estilização do Header */
@@ -69,6 +72,19 @@ header {
     height: 35%;
 }
 
+#recent {
+    color: #555454;
+    background-color: #8a8989;
+
+    transition: color 0.5s;
+}
+
+/*
+#recent:hover {
+    color: gold;
+}
+*/
+
 .header-button {
     display: flex;
     align-items: center;
@@ -78,10 +94,12 @@ header {
     text-decoration: none;
     font-weight: bold;
     font-style: italic;
+    font-size: 10px;
+
+    transition: background-color 0.5s;
 }
 
 .header-button:hover {
-    transition: 0.2s;
     background-color: #532e6e;
 }
 
@@ -97,6 +115,23 @@ main {
     width: 50%;
     height: 65vh;
 }
+
+/* ESTILIZAÇÃO DO MAIN DAS HISTÓRIAS */
+
+#main-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around center;
+    align-items: center;
+
+    background-color: #532e6e;
+
+    margin-top: 20px;
+}
+
+
+
+/* FIM DA ESTILIZAÇÃO DO MAIN DAS HISTÓRIAS */
 
 #title {
     /* border: solid; */
@@ -117,7 +152,7 @@ main {
 
 main p {
     /* border: solid; */
-    font-size: 20px;
+    font-size: 10.5px;
     color: #cfcdcd;
     text-wrap: balance;
 
@@ -151,16 +186,19 @@ footer {
 
     color: rgb(163, 124, 24);
     font-style: italic;
+
+    font-size: 10px;
 }
 
 #copy-right {
     position: relative;
-    top: 15px;
+    top: 1px;
 
     text-align: right;
     padding-right: 4.5px;
 
     color: #621281;
+    font-size: 10px;
 }
 
 /* SOBRE O AUTOR */
@@ -171,11 +209,8 @@ footer {
     margin-top: 5px;
     border-radius: 2px;
 
-    transition: rotate 1s cubic-bezier(0.3, 0.8, 0.3, 2.3); /* Testando as transições kkkk */
-}
-
-#avatar-pfp:hover {
     rotate: 2.5deg;
+    /* transition: rotate 1s cubic-bezier(0.3, 0.8, 0.3, 2.3); /* Testando as transições kkkk */
 }
 
 /* SOBRE O BLOG */
@@ -192,8 +227,8 @@ footer {
     align-items: center;
 
     /* border: solid; */
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    /*border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;*/
     background-color: #532e6e;
 
     margin-bottom: 30px;
@@ -202,13 +237,16 @@ footer {
 }
 
 .story-sect h2 {
-    font-family: 'GrapeSoda';
-    font-size: 25px;
+    font-size: 12.5px;
+}
+
+.story-sect a {
+    font-size: 12px;
 }
 
 .number-story {
     position: absolute;
-    right: 43.8vw;
+    right: 45.2vw;
 
     font-size: 15px;
     font-family: 'Courier New', Courier, monospace;
@@ -219,6 +257,9 @@ footer {
 /* SUBCATEGORIA: CORES E SUAS ETIQUETAS */
 
 #cores {
+    position: relative;
+    bottom: 100px;
+
     display: grid;
     grid-template-columns: 0.5fr 1fr;
 
@@ -235,7 +276,7 @@ footer {
 
     padding-left: 10px;
 
-    font-size: 20px;
+    font-size: 12px;
 
     border: solid;
 }
@@ -292,7 +333,7 @@ footer {
     align-items: center;
     justify-content: flex-start;
 
-    font-size: 15px;
+    font-size: 10px;
     /* color: black; */
 
     /* border: solid; */
