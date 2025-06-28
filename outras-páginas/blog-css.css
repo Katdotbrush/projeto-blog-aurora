@@ -34,11 +34,22 @@
 
 .captular-letter {
     float: left;
-    font-size: 40px;
-    font-style: italic;
+    font-size: 65.5px;
+    /* font-style: italic; */
     font-weight: bold;
 
     margin-right: 20px;
     margin-left: 10px;
     margin-bottom: 0;
+
+    padding-left: 10px;
+}
+
+.paragraph-big {
+    font-size: 20px;
+    line-height: 19.5px;
+
+    padding-bottom: 0;
+
+    text-wrap: wrap;
 }
