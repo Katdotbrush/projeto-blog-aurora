@@ -1,0 +1,44 @@
+/* TITLE */
+
+.chapter-org {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: #45265c;
+
+    margin: 10px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.story-title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+.rock-png {
+    width: 6%;
+}
+
+/* CONTENT */
+
+.text-content {
+    text-align: left;
+
+    /* border: solid; */
+
+    margin-inline: 10px;
+}
+
+.captular-letter {
+    float: left;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
